@@ -1,2 +1,3 @@
 * text working-tree-encoding=IBM-1047
+ascii.txt text working-tree-encoding=ISO8859-1
 a.png binary
