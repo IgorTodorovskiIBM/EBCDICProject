@@ -1,3 +1,5 @@
 * text working-tree-encoding=IBM-1047
+my_037.txt text working-tree-encoding=IBM-037
 ascii.txt text working-tree-encoding=ISO8859-1
+cacert.pem text working-tree-encoding=UTF-8
 a.png binary
