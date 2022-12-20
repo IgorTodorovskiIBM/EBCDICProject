@@ -2,4 +2,5 @@
 my_037.txt text zos-working-tree-encoding=IBM-037
 ascii.txt text zos-working-tree-encoding=ISO8859-1
 cacert.pem text zos-working-tree-encoding=UTF-8
+cacert.pem2 text zos-working-tree-encoding=ISO8859-1
 a.png binary
