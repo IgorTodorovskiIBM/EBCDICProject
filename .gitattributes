@@ -8,3 +8,71 @@ cacert.pem2 text zos-working-tree-encoding=ISO8859-1
 utf8.txt text zos-working-tree-encoding=UTF-8
 .gitconfig  text zos-working-tree-encoding=UTF-8
 a.png binary
+# line endings
+* text eol=lf
+#
+# The default for text files
+*     zos-working-tree-encoding=ibm-1047 git-encoding=iso8859-1
+#
+# git's files (which MUST be ASCII)
+.gitattributes zos-working-tree-encoding=iso8859-1 git-encoding=iso8859-1
+.gitignore     zos-working-tree-encoding=iso8859-1 git-encoding=iso8859-1
+#
+# file encodings for Rocket Git for Z version 2.14.4 and higher
+*.cpy     zos-working-tree-encoding=ibm-278 git-encoding=utf-8
+*.copy    zos-working-tree-encoding=ibm-278 git-encoding=utf-8
+*.cbl     zos-working-tree-encoding=ibm-278 git-encoding=utf-8
+*.mfs     zos-working-tree-encoding=ibm-278 git-encoding=utf-8
+*.lnk     zos-working-tree-encoding=ibm-278 git-encoding=utf-8
+*.link    zos-working-tree-encoding=ibm-278 git-encoding=utf-8
+*.lmod    zos-working-tree-encoding=ibm-278 git-encoding=utf-8
+*.bnd     zos-working-tree-encoding=ibm-278 git-encoding=utf-8
+*.rex     zos-working-tree-encoding=ibm-278 git-encoding=utf-8
+*.rexx    zos-working-tree-encoding=ibm-278 git-encoding=utf-8
+*.txt     zos-working-tree-encoding=ibm-278 git-encoding=utf-8
+*.asm     zos-working-tree-encoding=ibm-278 git-encoding=utf-8
+*.jcl     zos-working-tree-encoding=ibm-278 git-encoding=utf-8
+*.data   zos-working-tree-encoding=ibm-278 git-encoding=utf-8
+*.dataft  zos-working-tree-encoding=ibm-278 git-encoding=utf-8
+*.datast  zos-working-tree-encoding=ibm-278 git-encoding=utf-8
+*.datapt  zos-working-tree-encoding=ibm-278 git-encoding=utf-8
+*.datapr  zos-working-tree-encoding=ibm-278 git-encoding=utf-8
+*.datavb  zos-working-tree-encoding=ibm-278 git-encoding=utf-8
+*.saspgm  zos-working-tree-encoding=ibm-278 git-encoding=utf-8
+*.optsyst zos-working-tree-encoding=ibm-278 git-encoding=utf-8
+*.optdbft zos-working-tree-encoding=ibm-278 git-encoding=utf-8
+*.optdbst zos-working-tree-encoding=ibm-278 git-encoding=utf-8
+*.optdbpt zos-working-tree-encoding=ibm-278 git-encoding=utf-8
+*.optdbpr zos-working-tree-encoding=ibm-278 git-encoding=utf-8
+*.optdbin zos-working-tree-encoding=ibm-278 git-encoding=utf-8
+*.optdbit zos-working-tree-encoding=ibm-278 git-encoding=utf-8
+*.optdbmt zos-working-tree-encoding=ibm-278 git-encoding=utf-8
+*.binddbin zos-working-tree-encoding=ibm-278 git-encoding=utf-8
+*.binddbpr zos-working-tree-encoding=ibm-278 git-encoding=utf-8
+*.unldbin zos-working-tree-encoding=ibm-278 git-encoding=utf-8
+*.unldbit zos-working-tree-encoding=ibm-278 git-encoding=utf-8
+*.unldbpr zos-working-tree-encoding=ibm-278 git-encoding=utf-8
+*.exec    zos-working-tree-encoding=ibm-278 git-encoding=utf-8
+*.mac     zos-working-tree-encoding=ibm-278 git-encoding=utf-8
+*.macro   zos-working-tree-encoding=ibm-278 git-encoding=utf-8
+*.psb     zos-working-tree-encoding=ibm-278 git-encoding=utf-8
+*.psbdli  zos-working-tree-encoding=ibm-278 git-encoding=utf-8
+*.db2rest zos-working-tree-encoding=ibm-278 git-encoding=utf-8
+*.spsql   zos-working-tree-encoding=ibm-278 git-encoding=utf-8
+*.clist   zos-working-tree-encoding=ibm-278 git-encoding=utf-8
+*.messg   zos-working-tree-encoding=ibm-278 git-encoding=utf-8
+*.panel   zos-working-tree-encoding=ibm-278 git-encoding=utf-8
+*.skels   zos-working-tree-encoding=ibm-278 git-encoding=utf-8
+*.spcobddl zos-working-tree-encoding=ibm-278 git-encoding=utf-8
+*.xml     zos-working-tree-encoding=ibm-278 git-encoding=utf-8
+*.solxml  zos-working-tree-encoding=ibm-278 git-encoding=utf-8
+*.eztp    zos-working-tree-encoding=ibm-278 git-encoding=utf-8
+*.spcob   zos-working-tree-encoding=ibm-278 git-encoding=utf-8
+*.bzucfg  zos-working-tree-encoding=ibm-278 git-encoding=utf-8
+*.plbck   binary
+#
+# don't touch these, they are CORRECT
+*.groovy zos-working-tree-encoding=ibm-1047 git-encoding=utf-8
+*.sh     zos-working-tree-encoding=ibm-1047 git-encoding=utf-8
+*.properties zos-working-tree-encoding=ibm-1047 git-encoding=utf-8
+*.json   zos-working-tree-encoding=utf-8 git-encoding=utf-8
