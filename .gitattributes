@@ -1,6 +1,6 @@
-* text zos-working-tree-encoding=IBM-1047
-*.mac text zos-working-tree-encoding=ISO8859-1
-utf8.sh text zos-working-tree-encoding=ISO8859-1
+* text working-tree-encoding=ISO8859-1
+*.mac text working-tree-encoding=ISO8859-1
+utf8.sh text working-tree-encoding=ISO8859-1
 my_037.txt text zos-working-tree-encoding=IBM-037
 ascii.txt text zos-working-tree-encoding=ISO8859-1
 cacert.pem text zos-working-tree-encoding=UTF-8
