@@ -7,4 +7,5 @@ cacert.pem text zos-working-tree-encoding=UTF-8
 cacert.pem2 text zos-working-tree-encoding=ISO8859-1
 utf8.txt text zos-working-tree-encoding=UTF-8
 .gitconfig  text zos-working-tree-encoding=UTF-8
+ebcdic.txt text zos-working-tree-encoding=IBM-1047
 a.png binary
